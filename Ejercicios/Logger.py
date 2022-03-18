@@ -1,8 +1,9 @@
 class Test:
-
     def llamada(self, string):
-        file = open("cat log.txt", "w")
-        file.write(string)
+        file.write("{}".format(string))
+
+file = open("cat log.txt", "w")
+file.write("--Start log--")
 
 test = Test()
 for i in range(1,6): 
