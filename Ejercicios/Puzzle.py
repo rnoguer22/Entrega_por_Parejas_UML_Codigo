@@ -6,7 +6,7 @@ class A:
         return len(t) 
 
 #Funcion que abriremos desde el archivo main.py
-def main():
+def main_puzzle():
     a = A 
     y = a.z
     print(y(a)) #Muestra por pantalla <class '__main__.A'> ya que la funcion z devuelve self

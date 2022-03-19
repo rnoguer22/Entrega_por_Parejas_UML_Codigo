@@ -5,7 +5,7 @@ class Test:
         file.write("{}".format(string))
 
 #Funcion que llamaremos desde el archivo mian.py
-def main():
+def main_logger():
     #Abrimos el archivo y escribimos el mensaje inicial
     file = open("cat log.txt", "w")
     file.write("--Start log--\n")

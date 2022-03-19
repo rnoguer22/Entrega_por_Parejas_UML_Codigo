@@ -1,11 +1,11 @@
 if __name__ == "__main__":
 
-    from Ejercicios.Logger import main
+    from Ejercicios.Logger import main_logger
     print ("Ejercicio Logger:")
-    main()
+    main_logger()
     print ("\n")
 
-    from Ejercicios.Puzzle import main
+    from Ejercicios.Puzzle import main_puzzle
     print ("Ejercicio Puzzle:")
-    main()
+    main_puzzle()
     print ("\n")
