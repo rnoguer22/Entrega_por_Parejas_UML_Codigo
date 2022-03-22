@@ -74,7 +74,7 @@ class Palindromo2():
         print(self.palabra.upper())
         del self.palabra
 ```
-
+![diagrama](https://github.com/rnoguer22/Entrega_por_Parejas_UML_Codigo/blob/main/UML/Captura%20de%20pantalla%202022-03-22%20a%20las%2015.07.11.png)
 ## Ejercicio 3
 ### Puzzle
 
