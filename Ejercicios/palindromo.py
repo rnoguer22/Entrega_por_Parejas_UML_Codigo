@@ -1,3 +1,8 @@
 class Palindormo():
     def __init__(self):
-        self.string = 
+        self.string = str(input("Introduce un texto: "))
+
+    def esPalindromo(self):
+        
+
+
