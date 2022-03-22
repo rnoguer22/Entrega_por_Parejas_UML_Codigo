@@ -32,10 +32,8 @@ class Palindormo():
         texto = texto.replace("ú", "u")
         return texto
 
-p = Palindormo()
-texto = p.pedir_texto()
-p.especiales(texto)
-print(p.esPalindromo(texto))
+
+    
 
 
 
