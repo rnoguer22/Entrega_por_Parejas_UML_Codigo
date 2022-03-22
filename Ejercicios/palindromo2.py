@@ -1,7 +1,4 @@
 #Creamos la clase
-from readline import get_history_length
-
-
 class Palindromo2():
 
     #Definimos el constructor
@@ -19,13 +16,16 @@ class Palindromo2():
 
             else:
                 return False
-
+        
         if len(self.palabra) < 1:
             return True
 
     #Definimos el destructor
     def borrar(self):
+        print(self.palabra.upper())
         del self.palabra
+
+
     
        
        
@@ -36,7 +36,9 @@ class Palindromo2():
 
 p = Palindromo2("radar")
 print(p.test())
+
 p.borrar()
+
 
 p = Palindromo2("sonar")
 print(p.test())
