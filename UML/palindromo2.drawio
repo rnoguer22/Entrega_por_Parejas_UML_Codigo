@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="bqWY6gS-c6vWlgKNfN6G" name="Página-1">
+        <mxGraphModel dx="512" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Palindromo2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="130" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="test&lt;br&gt;&lt;div&gt;&lt;span&gt;borrar&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="170" width="120" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

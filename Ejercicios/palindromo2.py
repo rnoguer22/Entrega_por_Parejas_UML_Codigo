@@ -34,14 +34,7 @@ class Palindromo2():
             
     
 
-p = Palindromo2("radar")
-print(p.test())
 
-p.borrar()
-
-
-p = Palindromo2("sonar")
-print(p.test())
 
 
 
