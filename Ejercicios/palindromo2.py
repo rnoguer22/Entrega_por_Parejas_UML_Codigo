@@ -12,7 +12,7 @@ class Palindromo2():
     def test(self):
 
         while len(self.palabra) >= 1:
-            
+            #Si la primera y ultima letra son las mismas las "elimina" de la palabra y vuelve a iniciar el método test
             if self.palabra[0] == self.palabra[-1]:
                 self.palabra = self.palabra[1:-1]
                 return self.test()
@@ -23,10 +23,23 @@ class Palindromo2():
         if len(self.palabra) < 1:
             return True
 
+    #Definimos el destructor
+    def borrar(self):
+        del self.palabra
+    
+       
+       
+    
+
             
     
 
 p = Palindromo2("radar")
 print(p.test())
+p.borrar()
+
+p = Palindromo2("sonar")
+print(p.test())
+
 
 
